@@ -12,6 +12,8 @@ public class NumberSeriesSum {
 	//CONSTRUCTOR
 	public NumberSeriesSum() {
 		
+		scanner = new Scanner(System.in);
+		
 	}
 
 }
