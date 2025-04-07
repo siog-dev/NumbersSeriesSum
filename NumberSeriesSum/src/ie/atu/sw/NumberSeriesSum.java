@@ -9,13 +9,6 @@ public class NumberSeriesSum {
 	private int min_number;
 	private int max_number;
 	int sum = 0;
-
-	//CONSTRUCTOR
-	public NumberSeriesSum() {
-		
-		scanner = new Scanner(System.in);
-		
-	}
 	
 	public int minInput() {
 		
@@ -29,7 +22,11 @@ public class NumberSeriesSum {
 		return scanner.nextInt();
 	}
 	
-	public void start() {
+	//CONSTRUCTOR
+	public NumberSeriesSum() {
+		
+		scanner = new Scanner(System.in);
+		
 		System.out.println("--------------------------------");
 		System.out.println("-- Sum of a Series of Numbers --");
 		System.out.println("--------------------------------");
