@@ -14,7 +14,6 @@ public class NumberSeriesSum {
 	public NumberSeriesSum() {
 		
 		scanner = new Scanner(System.in);
-		start();
 		
 	}
 	
