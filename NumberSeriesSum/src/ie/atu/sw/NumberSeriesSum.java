@@ -16,7 +16,7 @@ public class NumberSeriesSum {
 		
 	}
 	
-	public void start(); {
+	public void start() {
 		System.out.println("--------------------------------");
 		System.out.println("-- Sum of a Series of Numbers --");
 		System.out.println("--------------------------------");
