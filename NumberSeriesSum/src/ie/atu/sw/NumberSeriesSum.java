@@ -15,5 +15,11 @@ public class NumberSeriesSum {
 		scanner = new Scanner(System.in);
 		
 	}
+	
+	public void start(); {
+		System.out.println("--------------------------------");
+		System.out.println("-- Sum of a Series of Numbers --");
+		System.out.println("--------------------------------");
+	}
 
 }
