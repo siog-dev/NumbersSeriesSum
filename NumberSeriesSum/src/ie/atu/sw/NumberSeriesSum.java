@@ -1,49 +1,42 @@
 package ie.atu.sw;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class NumberSeriesSum {
 	
 	//INSTANCE VARIABLES
-	//private Scanner scanner;
-	private int min_number = 20; //minInput();
-	private int max_number = 60;//maxInput();
+	private Scanner scanner;
+	private int min_number;
+	private int max_number;
 	int sum = 0;
 
 	//CONSTRUCTOR
 	public NumberSeriesSum() {
 		
-		//scanner = new Scanner(System.in);
-		
+		scanner = new Scanner(System.in);
 		start();
 		
 	}
-	/*
+	
 	public int minInput() {
 		
 		System.out.println("Enter the MIN number in the series sum>");
-		String min_input = scanner.next();
-		int min = (int)Double.parseDouble(min_input);
-		
-		return min;
+		return scanner.nextInt();
 	}
 	
 	public int maxInput() {
 		
 		System.out.println("Enter the MAX number in the series sum>");
-		String max_input = scanner.next();
-		int max = (int)Double.parseDouble(max_input);
-		
-		return max;
+		return scanner.nextInt();
 	}
-	*/
+	
 	public void start() {
 		System.out.println("--------------------------------");
 		System.out.println("-- Sum of a Series of Numbers --");
 		System.out.println("--------------------------------");
 		
-		//minInput();
-		//maxInput();
+		min_number = minInput(); //Initialise min_number
+		max_number = maxInput(); //Initialise max_number
 		
 		for (int i = min_number; i <= max_number; i++) {
 			sum += i;
